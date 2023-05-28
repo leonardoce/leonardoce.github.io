@@ -1,9 +1,0 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = "bleog"
-theme = 'beautifulhugo'
-
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
