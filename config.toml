@@ -2,8 +2,22 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "bleog"
 theme = 'beautifulhugo'
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+ # homeTitle = "Leonardo's Blog" # Set a different text for the header on the home page
+  subtitle = "Leonardo's Blog"
   mainSections = ["post","posts"]
+
+  readingTime = true
+  hideAuthor = true
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Leonardo Cecchi"
+  github = "leonardoce"
+  twitter = "leonardo_cecchi"
+  linkedin = "leonardo-cecchi-54b0a396"

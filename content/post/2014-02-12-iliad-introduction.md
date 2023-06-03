@@ -2,13 +2,15 @@
 layout: post
 title:  "Iliad Framework, installing and starting the embedded web server"
 date:   2014-02-12 21:28:24
-categories: programming smalltalk
+tags: ["programming", "smalltalk"]
 ---
 
 
 This post introduces the [Iliad Web Framework][iliad-web], which is a
 webapp framework that you can use with the [Pharo][pharo-web]
 Smalltalk implementation to create dynamic and fast websites.
+
+<!--more-->
 
 I hope that you already used Pharo and the Smalltalk language but, if
 you are a real beginner, try these books before reading this post.
@@ -58,9 +60,9 @@ framework.
 
 Open a workspace from the "World Menu" and enter:
 
-{% highlight smalltalk %}
+```smalltalk
 IliadKom startOn: 7070
-{% endhighlight %}
+```
 
 select the code line and open the contextual menu right-clicking on
 the selected text. From the contextual menu choose "Do it". Pharo
