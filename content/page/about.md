@@ -1,16 +1,16 @@
 ---
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Leonardo Cecchi
 comments: false
+socialShare: false
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### My history
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I’ve been in computer science from the beginning, and programming has always been my obsession. My passion began when I was 6 when my father taught me the rudiments of C programming.
 
-What else do you need?
+I’ve been working in 2ndQuadrant since 2016 as a developer and a PostgreSQL consultant. PostgreSQL has always been my choice when working with a DBMS. I’ve been using it since 1998.
 
-### my history
+EDB acquired 2ndQuadrant in 2020, and CloudNativePG, the operator I have been working on with my team since 2019, was finally released as OSS in 2022.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I’m working now as a maintainer for the CloudNative-PG project, as a developer for EDB PostgreSQL Distributed, and as an architect for BigAnimal, EDB’s DBaaS offering.
