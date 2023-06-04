@@ -10,7 +10,7 @@ Iliad Framework.
 
 <!--more-->
 
-Please consult the [previous post][previous-post] if you need to
+Please consult the [previous post]({{< ref "post/2014-02-12-iliad-introduction" >}} "previous post") if you need to
 install the web framework in your image.
 
 An Iliad web application consists in a class that extends from
@@ -62,7 +62,4 @@ Please browse the code from the `ILHTMLBuilderElement` class. You will
 find many useful methods to create basically every HTML element you
 want.
 
-The next article is [here][next-post]
-
-[previous-post]: {% post_url 2014-02-12-iliad-introduction %}
-[next-post]: {% post_url 2014-02-14-iliad-lesson-two %}
+The next article is [here]({{< ref "post/2014-02-14-iliad-lesson-two" >}} "next post")

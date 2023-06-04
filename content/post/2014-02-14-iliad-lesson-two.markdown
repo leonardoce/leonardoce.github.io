@@ -5,7 +5,7 @@ date:   2014-02-14 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] about the Iliad Framework we
+In the [previous post]({{< ref "post/2014-02-13-iliad-lesson-one" >}} "previous post") about the Iliad Framework we
 build a basic web application that, in the default controller, write
 an "Hello World" HTML.
 
@@ -54,7 +54,5 @@ index
     e a linkToLocal: 'firstTest'; text: 'Go to firstTest controller' ]
 ```
 
-The next post is [here][next-post].
+The next post is [here](http://linux.die.net/man/8/ip).
 
-[previous-post]: {% post_url 2014-02-13-iliad-lesson-one %}
-[next-post]:  {% post_url 2014-02-16-iliad-lesson-three %}

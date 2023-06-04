@@ -5,7 +5,7 @@ date:   2014-03-04 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] we build a login form and we saw
+In the [previous post]({{< ref "post/2014-03-03-users-dao-intermezzo" >}} "previous post") we build a login form and we saw
 that we should provide an user registration form.
 
 <!--more-->
@@ -31,7 +31,7 @@ checkEmail: anEmail
 ```
 
 As you see I check the email addresses using the RegExp feature of
-Smalltalk. The regexp is taken from [this site][email-regexp-site].
+Smalltalk. The regexp is taken from [this site](http://www.regular-expressions.info/index.html).
 
 I know that at this times my should send an activation email to let
 the user activate yourself but I won't do it as I don't want to mess
@@ -61,8 +61,4 @@ testEmailNotOk
 
 The tests should all be working.
 
-The next post is [here][next-post].
-
-[previous-post]: {% post_url 2014-03-03-users-dao-intermezzo %}
-[next-post]: {% post_url 2014-03-07-pnotes-registration-page %}
-[email-regexp-site]: http://www.regular-expressions.info/index.html
+The next post is [here]({{< ref "post/2014-03-07-pnotes-registration-page" >}} "next post").

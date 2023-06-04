@@ -5,7 +5,7 @@ date:   2014-02-26 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous lesson][previous-post] we talked about how to use an
+In the [previous post]({{< ref "post/2014-02-20-iliad-framework-lesson-six" >}} "previous post") we talked about how to use an
 Iliad webapp with a browser without Javascript enabled.
 
 In this lesson we will talk about static resources to be included in
@@ -19,7 +19,7 @@ while you are developing your application, you can make use of the web
 server embedded inside the Pharo Smalltalk environment: Komanche.
 
 Iliad makes really easy to serve static resources. Now we will learn
-how to embed in your Pharo image [Bootstrap JS][bootstrap-js]. Let's
+how to embed in your Pharo image [Bootstrap JS](http://getbootstrap.com). Let's
 assume you already downloaded the compiled distribution to a file
 named `bootstrap-3.1.1-dist.zip` and that you extracted it in a folder
 named `~/tmp/bootstrap-3.1.1-dist`.
@@ -127,8 +127,4 @@ Check that also the following URLS get served:
 
 Now you are sure that everything is working.
 
-The next post is [here][next-post].
-
-[previous-post]: {% post_url 2014-02-20-iliad-framework-lesson-six %}
-[next-post]: {% post_url 2014-02-27-iliad-framework-customizing-page %}
-[bootstrap-js]: http://getbootstrap.com
+The next post is [here]({{< ref "post/2014-02-27-iliad-framework-customizing-page" >}} "next post").

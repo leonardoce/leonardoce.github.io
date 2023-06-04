@@ -5,13 +5,13 @@ date:   2014-03-02 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] we talked about customizing the
-generated page to include references to the [Bootstrap][bootstrap-js]
+In the [previous post]({{< ref "post/2014-02-27-iliad-framework-customizing-page " >}} "previous post") we talked about customizing the
+generated page to include references to the [Bootstrap](http://getbootstrap.com)
 project.
 
 This is the first lession where we start working on a complete
 example, a projecs-notes app usable from desktop and mobile web
-browsers using the twitter [bootstrap framework][bootstrap-js].
+browsers using the twitter [bootstrap framework](http://getbootstrap.com).
 
 <!--more-->
 
@@ -166,7 +166,7 @@ ILApplication subclass: #LcBlogProjectNotes
 	category: 'LeonardoBlog'
 ```
 
-As we discussed in the [relative article][lesson-three] we need an
+As we discussed in the [relative article]({{< ref "post/2014-02-16-iliad-lesson-three" >}} "lesson three") we need an
 accessor method that lazily creates the widget:
 
 ```smalltalk
@@ -187,16 +187,11 @@ If you go to
 [http://localhost:7070/ProjectNotes/login](http://localhost:7070/ProjectNotes/login)
 you should see the following result:
 
-![Project notes login form]({{ site.url }}/assets/pnotes-login.png)
+![Project notes login form](/images/pnotes-login.png)
 
 Yeah! We succesfuly build our first form, even with error checking.
 When the `loginError` is not empty the form looks like this:
 
-![Project notes login form error]({{ site.url }}/assets/pnotes-login-error.png)
+![Project notes login form error](/images/pnotes-login-error.png)
 
-The next post is [here][next-post].
-
-[lesson-three]: {% post_url 2014-02-16-iliad-lesson-three %}
-[previous-post]: {% post_url 2014-02-27-iliad-framework-customizing-page %}
-[bootstrap-js]: http://getbootstrap.com
-[next-post]: {% post_url 2014-03-03-users-dao-intermezzo %}
+The next post is [here]({{< ref "post/2014-03-03-users-dao-intermezzo" >}} "next post").

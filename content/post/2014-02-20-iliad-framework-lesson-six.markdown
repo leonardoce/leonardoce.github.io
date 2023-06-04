@@ -5,7 +5,7 @@ date:   2014-02-20 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] we talked about how events are
+In the [previous post]({{< ref "post/2014-02-18-iliad-framework-lesson-five" >}} "previous post") we talked about how events are
 implemented, and you saw that actions are implemented with Javascript
 code.
 
@@ -27,7 +27,4 @@ Now disable Javascript in your browser and see your application
 working application with Javascript disabled. This is part of the Iliad
 goodness!
 
-The next post is [here][next-post]
-
-[previous-post]: {% post_url 2014-02-18-iliad-framework-lesson-five %}
-[next-post]: {% post_url 2014-02-26-iliad-memory-directory %}
+The next post is [here]({{< ref "post/2014-02-26-iliad-memory-directory" >}} "next post")

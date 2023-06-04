@@ -23,8 +23,8 @@ I'm curious and so I immediatly thinked: the ArchLinux mantainers are
 really smart so why they have choosen not to install `net-tools` by
 default? Answer: they have alternative tools.
 
-These alternative tools are [ss][ss-man-page] and
-[ip][ip-man-page]. This is an example:
+These alternative tools are [ss](http://linux.die.net/man/8/ss) and
+[ip](http://linux.die.net/man/8/ip). This is an example:
 
 ```console console %}
 $ ss -l | grep tcp
@@ -59,6 +59,3 @@ and you can use `ip` like this:
     inet6 fe80::a00:27ff:fefb:86d0/64 scope link 
        valid_lft forever preferred_lft forever
 ```
-
-[ss-man-page]: http://linux.die.net/man/8/ss
-[ip-man-page]: http://linux.die.net/man/8/ip

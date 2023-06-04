@@ -8,7 +8,7 @@ tags: ["programming", "smalltalk"]
 
 In this post we will create a page to display the notes that we created
 with the project notes app. We will use the widget that we have created
-in the [previous lesson]({{< ref "post/2014-03-13-pnotes-status-widget" >}} "previous lesson") to display the current user and
+in the [previous post]({{< ref "post/2014-03-13-pnotes-status-widget" >}} "previous post") to display the current user and
 we will create a form to search inside notes.
 
 <!--more-->

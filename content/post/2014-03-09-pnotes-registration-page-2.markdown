@@ -5,7 +5,7 @@ date:   2014-03-09 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] we build a registration form and
+In the [previous post]({{< ref "post/2014-03-07-pnotes-registration-page" >}} "previous post") we build a registration form and
 in this one we will attach it to our application.
 
 <!--more-->
@@ -54,7 +54,3 @@ register
 Now we have our new controller and we can test it from the login
 page. The controller name, `register`, match with the `href` in the
 login page.
-
-[previous-post]: {% post_url 2014-03-07-pnotes-registration-page %}
-[next-post]: {% post_url 2014-03-13-pnotes-status-widget %}
-

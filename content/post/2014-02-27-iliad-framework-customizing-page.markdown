@@ -5,13 +5,13 @@ date:   2014-02-27 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] we talked about how to include
+In the [previous post]({{< ref "post/2014-02-26-iliad-memory-directory" >}} "previous post") we talked about how to include
 static resources in the Pharo image to be server with our application.
 
 <!--more-->
 
 Let's start with a new web application and, as we have seen in the
-[relative post][post-about-webapp], we must create a class deriving
+[relative post]({{< ref "post/2014-02-13-iliad-lesson-one" >}} "relative post"), we must create a class deriving
 from `ILApplication`, write the `path` method and an empty `index`
 controller:
 
@@ -37,7 +37,7 @@ index
 Remember to put the `index` method in the protocol `controllers`!
 
 Now we must integrate all the bootstrap code from the static resources
-generated in the [previous post][previous-post] in the page.
+generated in the [previous post]({{< ref "post/2014-02-26-iliad-memory-directory" >}} "previous post") in the page.
 
 Do to that we must override the `updatePage:` method from
 `ILApplication` like this:
@@ -71,8 +71,4 @@ can customize the generated page as you want.
 
 Voila'! We have integrated Bootstrap JS. 
 
-The next post is [here][next-post].
-
-[previous-post]: {% post_url 2014-02-26-iliad-memory-directory %}
-[next-post]: {% post_url 2014-03-02-iliad-login-page %}
-[post-about-webapp]: {% post_url 2014-02-13-iliad-lesson-one %}
+The next post is [here]({{< ref "post/2014-03-02-iliad-login-page" >}} "next post").

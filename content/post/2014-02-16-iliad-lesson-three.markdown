@@ -5,7 +5,7 @@ date:   2014-02-16 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous lesson][previous-post] we talked about controllers.
+In the [previous post]({{< ref "post/2014-02-14-iliad-lesson-two" >}} "previous post") we talked about controllers.
 
 In this lesson we will create the first widget using the Iliad
 framework.
@@ -86,7 +86,4 @@ if you choose my implementation (which is copyied from the Iliad
 examples) you can reuse your old browser session to try new code and
 this is really good, believe me.
 
-The next post is [here][next-post].
-
-[previous-post]: {% post_url 2014-02-14-iliad-lesson-two %}
-[next-post]: {% post_url 2014-02-17-iliad-framework-lesson-four %}
+The next post is [here]({{< ref "post/2014-02-17-iliad-framework-lesson-four" >}} "next post").

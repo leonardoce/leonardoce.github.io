@@ -5,7 +5,7 @@ date:   2014-03-03 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] we build a login form. In that
+In the [previous post]({{< ref "post/2014-03-02-iliad-login-page" >}} "previous post") we build a login form. In that
 form we included a "Register" link and so we must provide a way
 to make our users entries persistent.
 
@@ -17,7 +17,7 @@ restore data you can use the image as your database.
 <!--more-->
 
 This may look strange (and do look strange) to non-smalltalkers but
-this [wonderful post][image-based-persistence] explains very well why
+this [wonderful post](http://onsmalltalk.com/simple-image-based-persistence-in-squeak/) explains very well why
 using your image as a persistence layer isn't a crazy idea.
 
 For our didactic purpose we can safely use the image.
@@ -244,10 +244,6 @@ testDeleteAllUsers
 Well... if everything is ok you have all units test working correctly
 and you can be happy!
 
-![PnUserDAO test cases]({{ site.url }}/assets/pnotes-user-dao-tests.png)
+![PnUserDAO test cases](/images/pnotes-user-dao-tests.png)
 
-The next post is [here][next-post].
-
-[image-based-persistence]: http://onsmalltalk.com/simple-image-based-persistence-in-squeak/
-[previous-post]: {% post_url 2014-03-02-iliad-login-page %}
-[next-post]: {% post_url 2014-03-04-checking-emails %}
+The next post is [here]({{< ref "post/2014-03-04-checking-emails" >}} "next post").

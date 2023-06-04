@@ -5,7 +5,7 @@ date:   2014-02-18 21:28:24
 tags: ["programming", "smalltalk"]
 ---
 
-In the [previous post][previous-post] we implemented the counter
+In the [previous post]({{< ref "post/2014-02-17-iliad-framework-lesson-four" >}} "previous post") we implemented the counter
 example. Now I would like to talk about how the event's black magic
 actually works from the browser point of view.
 
@@ -86,7 +86,4 @@ session, for example when you have multiple tabs opened for the same
 session. When you have multiple tabs opened for the same session every
 tab has a different value for the `state` parameter.
 
-The next article is [here][next-post].
-
-[previous-post]: {% post_url 2014-02-17-iliad-framework-lesson-four %}
-[next-post]:  {% post_url 2014-02-20-iliad-framework-lesson-six %}
+The next article is [here]({{< ref "post/2014-02-20-iliad-framework-lesson-six" >}} "next post").
